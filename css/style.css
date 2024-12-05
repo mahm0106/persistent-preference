@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+.container-fluid {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.preferences-panel {
+    height: 450px;
+    padding: 20px;
+    background-color: #F7F9FA;
+   
+}
+
+.preferences-panel label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.preferences-panel select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.theme1 {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.theme2 {
+    background-color: #333333;
+    color: #000000;
+}
+
+.theme3 {
+    background-color: #000000;
+    color: #000000;
+}
+
+li {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    list-style: none;
+}
+
+.style1 li {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.style2 li {
+    background: linear-gradient(to right, #ffffff, #000000);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.style3 li {
+    background: linear-gradient(to right, #dddddd, #707070);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 760px) {
+    .preferences-panel {
+        height: 800px;
+    }
+
+
+}
